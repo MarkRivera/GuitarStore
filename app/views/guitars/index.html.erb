@@ -1,2 +1,14 @@
-<h1>Guitars#index</h1>
-<p>Find me in app/views/guitars/index.html.erb</p>
+<% @guitars.each do |guitar| %>
+<article class="border">
+  <%= image_tag guitar.photo %>
+  <p>
+    <%= guitar.name%>
+  </p>
+  <p>
+    <%= guitar.price %>
+  </p>
+  <p>
+    <%= guitar.description %>
+  </p>
+</article>
+<% end %>

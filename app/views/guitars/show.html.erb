@@ -1,2 +1,15 @@
-<h1>Guitars#show</h1>
-<p>Find me in app/views/guitars/show.html.erb</p>
+<div class="show-box">
+  <%= image_tag @guitar.photo, class: "show-pic" %>
+
+  <h2 class="name">
+    <%= @guitar.name %>
+  </h2>
+
+  <span class="price">
+    <%= number_to_currency(@guitar.price) %>
+  </span>
+
+  <p class="description">
+    <%= @guitar.description %>
+  </p>
+</div>

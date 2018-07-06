@@ -1,3 +1,35 @@
 // Place all the styles related to the guitars controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+.border {
+  border: solid #141213 1px;
+}
+
+//SHOW PAGE CSS
+
+.show-box {
+  width: 100%;
+  margin: 0 auto;
+  border: solid #141213 1px;
+  text-align: center;
+  .show-pic {
+    width: 100%;
+  }
+  .name {
+    display: block;
+    text-align: left;
+    padding-left: 25%;
+    margin: 0 50px 0 0;
+    font-size: 3em;
+  }
+  .description {
+    text-align: left;
+    padding-left: 50px;
+    font-size: 2em;
+  }
+  .price {
+    font-size: 2em;
+    color: 	#32CD32;
+  }
+}

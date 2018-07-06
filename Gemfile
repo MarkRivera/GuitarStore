@@ -25,6 +25,8 @@ gem 'coffee-rails', '~> 4.2'
 gem 'turbolinks', '~> 5'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.5'
+gem 'carrierwave'
+gem 'normalize-rails', '~> 4.1', '>= 4.1.1'
 
 
 group :development, :test do
@@ -33,6 +35,7 @@ group :development, :test do
   # Adds support for Capybara system testing and selenium driver
   gem 'capybara', '~> 2.13'
   gem 'selenium-webdriver'
+  gem 'faker'
 end
 
 group :development do
